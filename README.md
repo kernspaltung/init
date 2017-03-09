@@ -1,10 +1,11 @@
 ## Template básico kernspaltung
 
-#### Este template básico contiene:
+#### Este template contiene:
 
 - Dependencias
-- - Foundation zurb 6
+- - foundation 6
 - - imgLiquid
+- - font-awesome
 
 
 - Submodulos git

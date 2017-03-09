@@ -10,7 +10,6 @@
 <body>
   <main id="main" class="columns">
 
-
     <header id="header" class="columns h-10 fixed top left shadow">
 
       <div id="header-logo" class="columns small-3 imgLiquid imgLiquidNoFillLeft" >
@@ -20,25 +19,8 @@
       <!-- menu escritorio -->
       <nav class="columns small-9">
 
-        <?php
-        for ($i=0; $i < 5; $i++):
-          ?>
+        <?php include_once "secciones/menu.php" ?>
 
-          <li class="columns h-100 shareW">
-
-            <a href="" class="row p-0 h-100 text-center align-middle">
-
-              <div class="columns h-a p-0">
-
-                <?php echo "menu link " . $i; ?>
-
-              </div>
-
-            </a>
-
-          </li>
-
-        <?php endfor; ?>
       </nav>
 
     </header>
