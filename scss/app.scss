@@ -49,3 +49,13 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+// agregados
+@import "dependencias/style_utils/scss/style_utils";
+
+//resets
+div, section, ul, li {
+  display: block;
+  @extend .h-100;
+}
+//
