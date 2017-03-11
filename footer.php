@@ -1,7 +1,7 @@
 
 </main>
 
-<footer id="footer" class="columns h-10-v fixed bottom left shadow-up z1k1">
+<footer id="footer" class="columns h-10-v fixed bottom left color-blanco shadow-up z1k1">
 
   <div id="social" class="columns small-6 p-0">
 
@@ -38,7 +38,7 @@
 
     <div class="columns p-0 h-a">
 
-      <i class="fa fa-copyright font-xs font-md-s text-shadow"> Copyright || <?php echo date("Y"); ?></i>
+      <i class="fa fa-copyright font-xs font-md-s color-negro text-shadow"> Copyright || <?php echo date("Y"); ?></i>
 
     </div>
 

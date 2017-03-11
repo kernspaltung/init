@@ -8,31 +8,52 @@
   <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-  <main id="main" class="columns">
 
-    <header id="header" class="columns h-10 fixed top left shadow z1k1">
+    <header id="header" class="columns h-10 fixed top left color-blanco-bg shadow z1k1">
 
       <div id="header-logo" class="columns small-3 imgLiquid imgLiquidNoFillLeft" >
         <img src="img/placeholder.png" alt="" />
       </div>
 
-      <!-- menu escritorio -->
-      <nav class="columns small-9 show-for-large">
+      <!-- escritorio -->
+      <nav id="menu-escritorio" class="columns small-9 show-for-large">
 
         <?php include_once "secciones/menu.php" ?>
 
       </nav>
+      <!--  -->
 
-      <!-- menu movil -->
-      <div class="columns small-9 hide-for-large">
+      <!--parte movil -->
+      <div id="header-movil" class="columns small-9 hide-for-large">
 
-        <div class="">
-          <!-- falta menu movil + instalar font-awesome -->
+        <div class="columns small-9"></div>
+
+        <div class="columns small-3 p-0 v-center">
+
+          <div class="columns p-0 h-a text-right">
+
+            <a id="boton-menu-movil" class="columns p-0 " href="#">
+
+              <i class="fa fa-bars font-l"></i>
+
+            </a>
+
+          </div>
+
         </div>
 
+      </div>
+      <!--  -->
+      <div id="menu-movil" class="columns h-100-v abs p-top p-bottom color-primary-0-bg z-1">
+
+        <?php echo "este es el menu movil"; ?>
 
       </div>
 
-
-
     </header>
+
+
+
+
+
+    <main id="main" class="columns">

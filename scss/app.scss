@@ -53,14 +53,17 @@
 // agregados
 @import "bower_components/font-awesome/scss/font-awesome";
 @import "dependencias/style_utils/scss/style_utils";
+@import "paleta_color";
 
 //reset general
+
+* {outline: 1px solid rgba(0,0,0,0.35)}
+
 div, section, nav, ul, li {
   display: block;
   @extend .h-100;
 }
 //
-
 // generales
 .shadow {
   box-shadow: 2px 2px 2px rgba(0,0,0,0.35);
@@ -79,4 +82,14 @@ div, section, nav, ul, li {
 }
 .p-bottom {
   padding-bottom: 10vh;
+}
+
+//posicion menu movil
+.gira-icono-menu {
+  transition: 0.4s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
