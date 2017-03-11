@@ -44,13 +44,13 @@
 
       </div>
       <!--  -->
-      <div id="menu-movil" class="columns h-100-v abs p-top p-bottom color-primary-0-bg z-1">
-
-        <?php echo "este es el menu movil"; ?>
-
-      </div>
 
     </header>
+    <div id="menu-movil" class="columns h-100-v fixed p-top p-bottom color-primary-0-bg z1k hide-for-large">
+
+      <?php echo "este es el menu movil"; ?>
+
+    </div>
 
 
 
