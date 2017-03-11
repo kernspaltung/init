@@ -15,10 +15,16 @@
 
 - HTML
 - - Header escritorio
+- - - fixed altura:10vh
 - - Menú dummie escritorio
+- - - visible sobre el header
 - - Header movil
+- - - fixed altura:10vh
 - - Menú dummie movil
+- - - Botón con evento del menú
+- - - Entrada desde la derecha
 - - Footer
+- - - fixed altura:10vh
 
 - JS
 - - Ready

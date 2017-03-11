@@ -4,13 +4,13 @@
 for ($i=0; $i < 5; $i++):
   ?>
 
-  <li class="columns h-100 shareW">
+  <li class="columns p-0 h-100 shareW">
 
-    <a href="" class="row p-0 h-100 text-center align-middle">
+    <a href="" class="columns p-0 h-100 text-center v-center">
 
-      <div class="columns h-a p-0">
+      <div class="columns h-a p-0 text-shadow">
 
-        <?php echo "menu link " . $i; ?>
+        <?php echo "Elemento " . $i; ?>
 
       </div>
 

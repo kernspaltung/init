@@ -10,17 +10,29 @@
 <body>
   <main id="main" class="columns">
 
-    <header id="header" class="columns h-10 fixed top left shadow">
+    <header id="header" class="columns h-10 fixed top left shadow z1k1">
 
       <div id="header-logo" class="columns small-3 imgLiquid imgLiquidNoFillLeft" >
         <img src="img/placeholder.png" alt="" />
       </div>
 
       <!-- menu escritorio -->
-      <nav class="columns small-9">
+      <nav class="columns small-9 show-for-large">
 
         <?php include_once "secciones/menu.php" ?>
 
       </nav>
+
+      <!-- menu movil -->
+      <div class="columns small-9 hide-for-large">
+
+        <div class="">
+          <!-- falta menu movil + instalar font-awesome -->
+        </div>
+
+
+      </div>
+
+
 
     </header>
